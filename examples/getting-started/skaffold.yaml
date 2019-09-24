@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta14
 kind: Config
 build:
   artifacts:
-  - image: gcr.io/k8s-skaffold/skaffold-example
+  - image: docker.io/ripon/skaffold-example
 deploy:
   kubectl:
     manifests:
